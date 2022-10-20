@@ -1,3 +1,16 @@
+## [1.1.0](https://github.com/megasanjay/devmoji/compare/v1.0.0...v1.1.0) (2022-10-20)
+
+
+### Features
+
+* release ([6e6d820](https://github.com/megasanjay/devmoji/commit/6e6d82019e590da053758ea989d8b75f6c6c022a))
+
+
+### Other
+
+* update readme ([3b245ef](https://github.com/megasanjay/devmoji/commit/3b245ef2acf6c3fadc997ca13219ffeceade6305))
+* update wording ([e041492](https://github.com/megasanjay/devmoji/commit/e0414928f3ff3a4c1e3568a5280fa4babfe155d9))
+
 ## 1.0.0 (2022-10-20)
 
 
