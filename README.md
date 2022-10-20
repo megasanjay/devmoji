@@ -1,9 +1,9 @@
 # :sparkles: Devmoji
 
-[![Node CI](https://github.com/folke/devmoji/workflows/Node%20CI/badge.svg)](https://github.com/folke/devmoji/actions)
+[![Node CI](https://github.com/megasanjay/devmoji/workflows/Node%20CI/badge.svg)](https://github.com/megasanjay/devmoji/actions)
 [![npm](https://img.shields.io/npm/v/devmoji)](https://www.npmjs.com/package/devmoji)
-[![GitHub](https://img.shields.io/github/license/folke/devmoji)](https://github.com/folke/devmoji/blob/master/LICENSE)
-[![GitHub top language](https://img.shields.io/github/languages/top/folke/devmoji)](https://github.com/folke/devmoji/)
+[![GitHub](https://img.shields.io/github/license/megasanjay/devmoji)](https://github.com/megasanjay/devmoji/blob/master/LICENSE)
+[![GitHub top language](https://img.shields.io/github/languages/top/megasanjay/devmoji)](https://github.com/megasanjay/devmoji/)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
 
 Using [Conventional Commits :star:](https://www.conventionalcommits.org/) as a
@@ -33,9 +33,9 @@ Some of the things **Devmoji** can do:
 What does it look like?
 
 - see the commit messages of the Devmoji
-  [github repository](https://github.com/folke/devmoji)
+  [github repository](https://github.com/megasanjay/devmoji)
 - generated Devmoji
-  [CHANGELOG.md](https://github.com/folke/devmoji/blob/master/CHANGELOG.md)
+  [CHANGELOG.md](https://github.com/megasanjay/devmoji/blob/master/CHANGELOG.md)
 
 ## :package: Installation
 
@@ -149,8 +149,10 @@ only really useful as a `prepare-commit-msg` or `commit-msg` hook.
 
 When to use what hook?
 
-* `prepare-commit-msg`: use this if you do not use **Devmnojis** `--lint` option and want to use it with something like [commitlint](https://commitlint.js.org/) instead.
-* `commit-msg`: use this hook if you also want to use **Devmoji** for linting 
+- `prepare-commit-msg`: use this if you do not use **Devmnojis** `--lint` option
+  and want to use it with something like
+  [commitlint](https://commitlint.js.org/) instead.
+- `commit-msg`: use this hook if you also want to use **Devmoji** for linting
 
 Configuration using [Husky](https://typicode.github.io/husky/)
 
@@ -177,7 +179,9 @@ Configuration using [Yorkie](https://www.npmjs.com/package/yorkie)
 > use something like `npx --no-install devmoji -e` instead of the commands
 > above.
 
-> Alternatively, if you don't want to use **Husky** or **Yorkie**, you can [manually](https://github.com/folke/devmoji/issues/87) create the git hooks.
+> Alternatively, if you don't want to use **Husky** or **Yorkie**, you can
+> [manually](https://github.com/megasanjay/devmoji/issues/87) create the git
+> hooks.
 
 ### `devmoji --log`
 
@@ -194,17 +198,17 @@ $ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgree
 > I'll use my alias `git l`, instead of the above, for clarity. The
 > `devmoji --format strip` is only for demonstration purposes, since all devmoji
 > commits already have emoji
-> ![devmoji --list](https://github.com/folke/devmoji/raw/master/assets/git--log.png)
+> ![devmoji --list](https://github.com/megasanjay/devmoji/raw/master/assets/git--log.png)
 
 > using `devmoji --log` >
-> ![devmoji --list](https://github.com/folke/devmoji/raw/master/assets/devmoji--log.png)
+> ![devmoji --list](https://github.com/megasanjay/devmoji/raw/master/assets/devmoji--log.png)
 
 ### `devmoji --list`
 
 To get a list of all available **Devmoji**, run with `--list`. (see also
 [Default Devmoji](###Default-Devmoji))
 
-![devmoji --list](https://github.com/folke/devmoji/raw/master/assets/devmoji--list.png)
+![devmoji --list](https://github.com/megasanjay/devmoji/raw/master/assets/devmoji--list.png)
 
 ## :gear: Configuration
 

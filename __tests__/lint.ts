@@ -6,7 +6,7 @@ test("should", async () => {
   fixup! foo
   squash!
   revert something
-  Merge branch 'master' of github.com:folke/devmoji
+  Merge branch 'master' of github.com:megasanjay/devmoji
   style: 🎨 Prettier 2.0
   chore(release): 2.1.8 [skip ci]
   fix(deps): update dependency chalk to v4 (#49)
@@ -35,7 +35,7 @@ test("should", async () => {
   }
 
   const invalid = `Style: 🎨 prettier 2.0
-  Merging branch 'master' of github.com:folke/devmoji
+  Merging branch 'master' of github.com:megasanjay/devmoji
   style 🎨 Prettier 2.0
   chorerelease): 2.1.8 [skip ci]
   fix(deps) update dependency chalk to v4 (#49)

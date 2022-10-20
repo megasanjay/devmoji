@@ -1,6 +1,6 @@
 {
-  "name": "devmoji",
-  "version": "2.3.2",
+  "name": "megasanjay-devmoji",
+  "version": "2.4.0",
   "description": "Enhance your conventional commits with gitmoji",
   "keywords": [
     "cli",
@@ -17,7 +17,14 @@
     "terminal"
   ],
   "author": "Folke Lemaitre <folke.lemaitre@gmail.com>",
-  "homepage": "https://github.com/folke/devmoji#readme",
+  "contributors": [
+    {
+      "name": "Sanjay Soundarajan",
+      "email": "contact@sanjaysoundarajan.dev",
+      "url": "https://sanjaysoundarajan.dev"
+    }
+  ],
+  "homepage": "https://github.com/megasanjay/devmoji#readme",
   "license": "MIT",
   "main": "lib/cli.js",
   "files": [
@@ -31,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/folke/devmoji.git"
+    "url": "https://github.com/megasanjay/devmoji.git"
   },
   "scripts": {
     "generate:emoji": "npx ts-node --transpile-only src/scripts/updater.ts",
@@ -51,7 +58,7 @@
   },
   "husky": {
     "hooks": {
-      "prepare-commit-msg": "npx --no-install devmoji -e --lint"
+      "prepare-commit-msg": "npx --no-install megasanjay-devmoji -e --lint"
     }
   },
   "ultra": {

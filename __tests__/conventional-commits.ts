@@ -82,11 +82,11 @@ eat(cli): 🚨 testing`)
 
 test("should", () => {
   const text =
-    "* 8f16492 - feat(cli): ✨ added cli for working with devmoji 🚀 (19 hours ago) <Folke Lemaitre>"
+    "* 8f16492 - feat(cli): ✨ added cli for working with devmoji 🚀 (19 hours ago) <Sanjay Soundarajan>"
   const cc = new ConventionalCommits(new Devmoji(new Config()))
 
   expect(cc.formatLog(text)).toBe(
-    "* 8f16492 - feat(cli): ✨ added cli for working with devmoji 🚀 (19 hours ago) <Folke Lemaitre>"
+    "* 8f16492 - feat(cli): ✨ added cli for working with devmoji 🚀 (19 hours ago) <Sanjay Soundarajan>"
   )
 })
 
