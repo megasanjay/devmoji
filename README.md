@@ -44,15 +44,15 @@ Install with `npm` or `yarn`
 > globally
 
 ```sh
-npm install -g devmoji
-yarn global add devmoji
+npm install -g megasanjay-devmoji
+yarn global add megasanjay-devmoji
 ```
 
-> locally inside your project. use with `npx devmoji`
+> locally inside your project. use with `npx megasanjay-devmoji`
 
 ```shell
-npm install --dev devmoji
-yarn add --dev devmoji
+npm install --dev megasanjay-devmoji
+yarn add --dev megasanjay-devmoji
 ```
 
 See [`--edit`](###devmoji---edit) for information on how to setup a git commit
@@ -60,11 +60,11 @@ hook.
 
 ## :boom: Usage
 
-### `devmoji --help`
+### `megasanjay-devmoji --help`
 
 ```console
-$ devmoji --help
-Usage: devmoji [options]
+$ megasanjay-devmoji --help
+Usage: megasanjay-devmoji [options]
 
 Options:
   -c|--config <file>    location of the devmoji.config.js file
@@ -82,7 +82,7 @@ Options:
   -h, --help            output usage information
 ```
 
-### `devmoji` emojify
+### `megasanjay-devmoji` emojify
 
 Emojify text using `--text` or piping it to `stdin`. Input can be a combination
 using any valid format. Output formats:
@@ -111,7 +111,7 @@ $ echo "test 🚀 :boom: :sparkles: :security:" | devmoji --format strip
 test
 ```
 
-### `devmoji --commit`
+### `megasanjay-devmoji --commit`
 
 Automagically :sparkles: emojifies a conventional commit message of the format
 `type(scope): something useful`, using the following pseudo code:
@@ -138,11 +138,11 @@ $ echo "fix(security): upgraded lodash" | devmoji --commit
 fix(security): 🐛 🔒 upgraded lodash
 ```
 
-### `devmoji --lint`
+### `megasanjay-devmoji --lint`
 
 Lints your commit message to see if they are valid conventional commits
 
-### `devmoji --edit`
+### `megasanjay-devmoji --edit`
 
 Formats and saves your current commit message `.git/COMMIT_EDITMSG`. This is
 only really useful as a `prepare-commit-msg` or `commit-msg` hook.
@@ -183,7 +183,7 @@ Configuration using [Yorkie](https://www.npmjs.com/package/yorkie)
 > [manually](https://github.com/megasanjay/devmoji/issues/87) create the git
 > hooks.
 
-### `devmoji --log`
+### `megasanjay-devmoji --log`
 
 Works similar to `--commit`, but formats `type(scope): something useful`
 anywhere in the input instead of the beginning of the first line.
@@ -196,24 +196,24 @@ $ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgree
 ```
 
 > I'll use my alias `git l`, instead of the above, for clarity. The
-> `devmoji --format strip` is only for demonstration purposes, since all devmoji
-> commits already have emoji
-> ![devmoji --list](https://github.com/megasanjay/devmoji/raw/master/assets/git--log.png)
+> `megasanjay-devmoji --format strip` is only for demonstration purposes, since
+> all devmoji commits already have emoji
+> ![megasanjay-devmoji --list](https://github.com/megasanjay/devmoji/raw/master/assets/git--log.png)
 
-> using `devmoji --log` >
-> ![devmoji --list](https://github.com/megasanjay/devmoji/raw/master/assets/devmoji--log.png)
+> using `megasanjay-devmoji --log` >
+> ![megasanjay-devmoji --list](https://github.com/megasanjay/devmoji/raw/master/assets/devmoji--log.png)
 
-### `devmoji --list`
+### `megasanjay-devmoji --list`
 
 To get a list of all available **Devmoji**, run with `--list`. (see also
 [Default Devmoji](###Default-Devmoji))
 
-![devmoji --list](https://github.com/megasanjay/devmoji/raw/master/assets/devmoji--list.png)
+![megasanjay-devmoji --list](https://github.com/megasanjay/devmoji/raw/master/assets/devmoji--list.png)
 
 ## :gear: Configuration
 
-`devmoji` uses the config file as specified with the `--config` option, or looks
-for `devmoji.config.js` in the following paths:
+`megasanjay-devmoji` uses the config file as specified with the `--config`
+option, or looks for `devmoji.config.js` in the following paths:
 
 - current directory
 - parent directory that contains a `package.json` file
