@@ -161,7 +161,7 @@ Configuration using [Husky](https://typicode.github.io/husky/)
 $ npx husky install
 
 # add a hook for devmoji
-$ npx husky add .husky/prepare-commit-msg "npx devmoji -e --lint"
+$ npx husky add .husky/prepare-commit-msg "npx megasanjay-devmoji -e --lint"
 ```
 
 Configuration using [Yorkie](https://www.npmjs.com/package/yorkie)
@@ -170,14 +170,14 @@ Configuration using [Yorkie](https://www.npmjs.com/package/yorkie)
 // package.json
 {
   "gitHooks": {
-    "prepare-commit-msg": "devmoji -e --lint"
+    "prepare-commit-msg": "megasanjay-devmoji -e --lint"
   }
 }
 ```
 
 > If you installed **Devmoji** locally in your project as a dev dependency, then
-> use something like `npx --no-install devmoji -e` instead of the commands
-> above.
+> use something like `npx --no-install megasanjay-devmoji -e` instead of the
+> commands above.
 
 > Alternatively, if you don't want to use **Husky** or **Yorkie**, you can
 > [manually](https://github.com/megasanjay/devmoji/issues/87) create the git
