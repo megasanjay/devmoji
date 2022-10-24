@@ -1,3 +1,10 @@
+### [1.2.1](https://github.com/megasanjay/devmoji/compare/v1.2.0...v1.2.1) (2022-10-24)
+
+
+### Bug Fixes
+
+* update bin command ([8caa78e](https://github.com/megasanjay/devmoji/commit/8caa78e4ba428b193cf28fd2ff059ea1481cc8b0))
+
 ## [1.2.0](https://github.com/megasanjay/devmoji/compare/v1.1.0...v1.2.0) (2022-10-24)
 
 
