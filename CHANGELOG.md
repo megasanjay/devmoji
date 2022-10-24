@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/megasanjay/devmoji/compare/v1.1.0...v1.2.0) (2022-10-24)
+
+
+### Features
+
+* add technologist gitmoji ([cf1d208](https://github.com/megasanjay/devmoji/commit/cf1d20861a1e3074a1f83f975ab6605a44061bf7))
+
 ## [1.1.0](https://github.com/megasanjay/devmoji/compare/v1.0.0...v1.1.0) (2022-10-20)
 
 
