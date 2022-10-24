@@ -361,6 +361,14 @@ export default {
       semver: null,
     },
     {
+      emoji: "🧑‍💻️",
+      entity: "&#128104;&#8205;&#128187;",
+      code: ":technologist:",
+      description: "Improve developer experience.",
+      name: "technologist",
+      semver: "null",
+    },
+    {
       emoji: "🚸",
       entity: "&#128696;",
       code: ":children_crossing:",
